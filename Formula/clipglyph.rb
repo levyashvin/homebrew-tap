@@ -1,8 +1,8 @@
 class Clipglyph < Formula
   desc "Clipboard OCR for macOS without Screen Recording permission or admin password"
   homepage "https://github.com/levyashvin/ClipGlyph"
-  url "https://github.com/levyashvin/ClipGlyph/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "cee472502396dd085de258529c59138e9a42bbb649d47ec5b358ad3857cc1f69"
+  url "https://github.com/levyashvin/ClipGlyph/archive/refs/tags/v1.1.0.tar.gz"
+  sha256 "099a2f2ea0bfba602cc783d08a001b08763142202b0de3e9a913fdf98f47461a"
   license "MIT"
   head "https://github.com/levyashvin/ClipGlyph.git", branch: "main"
 
@@ -27,7 +27,7 @@ class Clipglyph < Formula
         brew services start clipglyph
 
       Usage: copy a screenshot to the clipboard (e.g. ⌃⌘⇧4), press ⌃⌥⌘O, then paste.
-      Settings: press ⌃⌥⌘, or run: open #{opt_prefix}/ClipGlyph.app
+      Settings: menu bar icon, or run: open #{opt_prefix}/ClipGlyph.app
     EOS
   end
 
