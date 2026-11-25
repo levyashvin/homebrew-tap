@@ -1,8 +1,8 @@
 class Clipglyph < Formula
   desc "Clipboard OCR for macOS without Screen Recording permission or admin password"
   homepage "https://github.com/levyashvin/ClipGlyph"
-  url "https://github.com/levyashvin/ClipGlyph/archive/refs/tags/v1.4.0.tar.gz"
-  sha256 "a16e0c83c4d80f44357fa6d3fb1566635bb8abb4dd56ad0687d9928aa714a84d"
+  url "https://github.com/levyashvin/ClipGlyph/archive/refs/tags/v1.5.0.tar.gz"
+  sha256 "e9840bbece7e0ca9ba0b71365802c7b070d04b77c15b3be0c33a56b1be2a8589"
   license "MIT"
   head "https://github.com/levyashvin/ClipGlyph.git", branch: "main"
 
