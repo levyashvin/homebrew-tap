@@ -6,7 +6,6 @@ class Clipglyph < Formula
   license "MIT"
   head "https://github.com/levyashvin/ClipGlyph.git", branch: "main"
 
-  depends_on :macos
   depends_on macos: :ventura
 
   def install
